@@ -1,1 +1,213 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>About Us | The Mart</title><meta name="description" content="Learn about The Mart grocery store."><meta name="robots" content="index,follow"><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet"><link rel="stylesheet" href="style.css"></head><body><div class="topbar py-2"><div class="container d-flex justify-content-between flex-wrap"><span><i class="bi bi-telephone"></i> 1023 &nbsp; | &nbsp; info.com</span><span>Fresh groceries • Everyday value • Easy shopping</span></div></div><nav class="navbar navbar-expand-lg bg-white sticky-top shadow-sm"><div class="container"><a class="navbar-brand text-success" href="index.html"><i class="bi bi-basket2-fill"></i> The Mart</a><button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse" id="nav"><ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2"><li><a class="nav-link" href="index.html">Home</a></li><li><a class="nav-link" href="about.html">About</a></li><li><a class="nav-link" href="products.html">Products</a></li><li><a class="nav-link" href="contact.html">Contact</a></li><li><button class="btn btn-success ms-lg-2" data-bs-toggle="offcanvas" data-bs-target="#cartCanvas"><i class="bi bi-cart3"></i> Cart <span class="badge bg-warning text-dark cart-count">0</span></button></li></ul></div></div></nav><section class="page-hero"><div class="container"><h1>About The Mart</h1><p>Your neighbourhood destination for everyday grocery essentials.</p></div></section><section class="py-5"><div class="container"><div class="row g-5 align-items-center"><div class="col-lg-6"><img class="img-fluid about-img" src="https://images.unsplash.com/photo-1578916171728-46686eac8d58?auto=format&fit=crop&w=1000&q=85" alt="The Mart grocery aisle"></div><div class="col-lg-6"><h2>Simple, convenient grocery shopping</h2><p>The Mart brings together rice, grains, snacks, biscuits, chocolates, seeds, pantry goods and other daily essentials in a clean shopping experience.</p><p>Our website is designed to make browsing straightforward on mobile and desktop, with clear product information and an easy cart experience.</p><h4 class="mt-4">Our focus</h4><p>Useful everyday selection, easy navigation, transparent product prices and helpful customer support.</p></div></div></div></section><footer class="footer pt-5 pb-3"><div class="container"><div class="row g-4"><div class="col-lg-4"><h4 class="text-white"><i class="bi bi-basket2-fill"></i> The Mart</h4><p>Modern grocery shopping for rice, snacks, chocolates, seeds and everyday essentials.</p></div><div class="col-6 col-lg-2"><h6 class="text-white">Quick Links</h6><a class="d-block mb-2" href="about.html">About</a><a class="d-block mb-2" href="products.html">Products</a><a class="d-block" href="contact.html">Contact</a></div><div class="col-6 col-lg-3"><h6 class="text-white">Policies</h6><a class="d-block mb-2" href="privacy-policy.html">Privacy Policy</a><a class="d-block mb-2" href="terms-conditions.html">Terms & Conditions</a><a class="d-block mb-2" href="refund-policy.html">Refund Policy</a><a class="d-block" href="performance.html">Performance</a></div><div class="col-lg-3"><h6 class="text-white">Contact</h6><p class="mb-1">Lahore, Pakistan</p><p class="mb-1">1023</p><p>info.com</p></div></div><hr class="border-secondary"><div class="small text-center">© 2026 The Mart. All rights reserved.</div></div></footer><div class="offcanvas offcanvas-end" tabindex="-1" id="cartCanvas"><div class="offcanvas-header"><h5><i class="bi bi-cart3"></i> Your Cart</h5><button class="btn-close" data-bs-dismiss="offcanvas"></button></div><div class="offcanvas-body d-flex flex-column"><div id="cartItems" class="flex-grow-1"></div><div class="border-top pt-3"><div class="d-flex justify-content-between fs-5 fw-bold mb-3"><span>Total</span><span id="cartTotal">$0.00</span></div><button id="checkoutBtn" class="btn btn-success w-100 btn-lg">Proceed to Checkout</button><button id="clearCart" class="btn btn-outline-danger w-100 mt-2">Clear Cart</button></div></div></div><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script><script src="app.js"></script></body></html>
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<title>
+   About Us | Japkirat Food Mart LLC
+  </title>
+<meta content="Learn about Japkirat Food Mart LLC grocery store." name="description"/>
+<meta content="index,follow" name="robots"/>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"/>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+<div class="topbar py-2">
+<div class="container d-flex justify-content-between flex-wrap">
+<span>
+<i class="bi bi-telephone">
+</i>
+     <a class="contact-link" href="tel:+18884515767">+1(888) 451-5767</a>   |   <a class="contact-link" href="mailto:japkiratfoodmartllc@gmail.com">japkiratfoodmartllc@gmail.com</a>
+    </span>
+<span>
+     Fresh groceries • Everyday value • Easy shopping
+    </span>
+</div>
+</div>
+<nav class="navbar navbar-expand-lg bg-white sticky-top shadow-sm">
+<div class="container">
+<a class="navbar-brand text-success" href="index.html">
+<i class="bi bi-basket2-fill">
+</i>
+     Japkirat Food Mart LLC
+    </a>
+<button class="navbar-toggler" data-bs-target="#nav" data-bs-toggle="collapse">
+<span class="navbar-toggler-icon">
+</span>
+</button>
+<div class="collapse navbar-collapse" id="nav">
+<ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+<li>
+<a class="nav-link" href="index.html">
+        Home
+       </a>
+</li>
+<li>
+<a class="nav-link" href="about.html">
+        About
+       </a>
+</li>
+<li>
+<a class="nav-link" href="products.html">
+        Products
+       </a>
+</li>
+<li>
+<a class="nav-link" href="contact.html">
+        Contact
+       </a>
+</li>
+<li>
+<button class="btn btn-success ms-lg-2" data-bs-target="#cartCanvas" data-bs-toggle="offcanvas">
+<i class="bi bi-cart3">
+</i>
+        Cart
+        <span class="badge bg-warning text-dark cart-count">
+         0
+        </span>
+</button>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+<section class="page-hero">
+<div class="container">
+<h1>
+     About Japkirat Food Mart LLC
+    </h1>
+<p>
+     Your neighbourhood destination for everyday grocery essentials.
+    </p>
+</div>
+</section>
+<section class="py-5">
+<div class="container">
+<div class="row g-5 align-items-center">
+<div class="col-lg-6">
+<img alt="Japkirat Food Mart LLC grocery aisle" class="img-fluid about-img" src="https://images.unsplash.com/photo-1578916171728-46686eac8d58?auto=format&amp;fit=crop&amp;w=1000&amp;q=85"/>
+</div>
+<div class="col-lg-6">
+<h2>
+       Simple, convenient grocery shopping
+      </h2>
+<p>
+       Japkirat Food Mart LLC brings together rice, grains, snacks, biscuits, chocolates, seeds, pantry goods and other daily essentials in a clean shopping experience.
+      </p>
+<p>
+       Our website is designed to make browsing straightforward on mobile and desktop, with clear product information and an easy cart experience.
+      </p>
+<h4 class="mt-4">
+       Our focus
+      </h4>
+<p>
+       Useful everyday selection, easy navigation, transparent product prices and helpful customer support.
+      </p>
+</div>
+</div>
+</div>
+</section>
+<footer class="footer pt-5 pb-3">
+<div class="container">
+<div class="row g-4">
+<div class="col-lg-4">
+<h4 class="text-white">
+<i class="bi bi-basket2-fill">
+</i>
+       Japkirat Food Mart LLC
+      </h4>
+<p>
+       Modern grocery shopping for rice, snacks, chocolates, seeds and everyday essentials.
+      </p>
+</div>
+<div class="col-6 col-lg-2">
+<h6 class="text-white">
+       Quick Links
+      </h6>
+<a class="d-block mb-2" href="about.html">
+       About
+      </a>
+<a class="d-block mb-2" href="products.html">
+       Products
+      </a>
+<a class="d-block" href="contact.html">
+       Contact
+      </a>
+</div>
+<div class="col-6 col-lg-3">
+<h6 class="text-white">
+       Policies
+      </h6>
+<a class="d-block mb-2" href="privacy-policy.html">
+       Privacy Policy
+      </a>
+<a class="d-block mb-2" href="terms-conditions.html">
+       Terms &amp; Conditions
+      </a>
+<a class="d-block mb-2" href="refund-policy.html">
+       Refund Policy
+      </a>
+</div>
+<div class="col-lg-3">
+<h6 class="text-white">
+       Contact
+      </h6>
+<p class="mb-1">
+       10 Lee Rd 2150 Lot 189 Opelika, AL 36804
+      </p>
+<p class="mb-1">
+       <a class="contact-link" href="tel:+18884515767">+1(888) 451-5767</a>
+      </p>
+<p>
+       <a class="contact-link" href="mailto:japkiratfoodmartllc@gmail.com">japkiratfoodmartllc@gmail.com</a>
+      </p>
+</div>
+</div>
+<hr class="border-secondary"/>
+<div class="small text-center">
+     © 2026 Japkirat Food Mart LLC. All rights reserved.
+    </div>
+</div>
+</footer>
+<div class="offcanvas offcanvas-end" id="cartCanvas" tabindex="-1">
+<div class="offcanvas-header">
+<h5>
+<i class="bi bi-cart3">
+</i>
+     Your Cart
+    </h5>
+<button class="btn-close" data-bs-dismiss="offcanvas">
+</button>
+</div>
+<div class="offcanvas-body d-flex flex-column">
+<div class="flex-grow-1" id="cartItems">
+</div>
+<div class="border-top pt-3">
+<div class="d-flex justify-content-between fs-5 fw-bold mb-3">
+<span>
+       Total
+      </span>
+<span id="cartTotal">
+       $0.00
+      </span>
+</div>
+<button class="btn btn-success w-100 btn-lg" id="checkoutBtn">
+      Proceed to Checkout
+     </button>
+<button class="btn btn-outline-danger w-100 mt-2" id="clearCart">
+      Clear Cart
+     </button>
+</div>
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js">
+</script>
+<script src="app.js">
+</script>
+</body>
+</html>

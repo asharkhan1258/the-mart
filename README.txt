@@ -1,4 +1,4 @@
-THE MART
+JAPKIRAT FOOD MART LLC
 Open index.html in a browser.
-Pages: Home, About, Products, Contact, Privacy Policy, Terms & Conditions, Refund Policy, Performance.
+Pages: Home, About, Products, Contact, Privacy Policy, Terms & Conditions, Refund Policy.
 Cart uses browser localStorage. Checkout/contact are front-end demos and require backend/payment integration for live transactions.
